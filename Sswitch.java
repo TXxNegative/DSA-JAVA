@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Sswitch {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-        String fruit=input.next();
-        int day=input.nextInt();
+        //String fruit=input.next();
+        //int day=input.nextInt();
         //normal  switch
         /* 
         switch (fruit) {
@@ -24,7 +24,7 @@ public class Sswitch {
         */
         
         //enhanced switch
-         
+         /* 
         switch (fruit) {
             case "mango" -> System.out.println("the king of the fruits");
             case"litchi" -> System.out.println("red spikey outer cover,seed inside");
@@ -42,8 +42,25 @@ public class Sswitch {
             case 6 -> System.out.println("saturday");
             case 7 -> System.out.println("sunday");
         }
-        
+        */
         //nested switch
         
+        System.out.print("enter the employee number ");
+        int employee=input.nextInt();
+        System.out.print("enter the employee department ");
+        String department=input.next();
+        switch(employee){
+            case 1-> System.out.println("employee no. "+employee);
+            case 2-> System.out.println("employee no. "+employee);
+            case 3-> {
+                System.out.println("employee no. "+employee);
+                switch(department){
+                case "IT"->System.out.println("employee of IT");
+                case "management"->System.out.println("employee of MANAGEMENT   ");
+                default->System.out.println("not of department");
+            }}
+            case 4-> System.out.println("employee no. "+employee);
+            default->System.out.println("not an employee");
+        }
     }
 }
