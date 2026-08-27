@@ -7,6 +7,10 @@ public class function {
         String name=fname("abbhijit","dutta");
         System.out.println(name);
 
+        String gg=swap(3,4);
+        System.out.println(gg);
+
+        
     }
 
     static int sum2(){
@@ -41,5 +45,15 @@ public class function {
         String c=a+" "+b;
         return c;
     }
-    //in java we pass by variable
+
+    static String swap(int a, int b){
+        int s=a;
+        a=b;
+        b=s;
+        
+        
+        
+        return ("a"+Integer.toString(a)+" "+"b"+Integer.toString(b));
+    }
+    
 }
