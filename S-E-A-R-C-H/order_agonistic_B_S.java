@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Argonomi_B_S {
+public class order_agonistic_B_S{
     public static void main(String[] args) {
         int[] ascarr={1,3,33,34,45,57,61,89};
         int[] desarr={90,85,63,61,54,41,40,7};
