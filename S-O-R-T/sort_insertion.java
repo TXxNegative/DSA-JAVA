@@ -6,7 +6,7 @@ public class sort_insertion {
 
     static void inser_sort(int[] arr){
         for(int i=0;i<arr.length;i++){
-            
+            for(int j=)
         }
     }
 }
